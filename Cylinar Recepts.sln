@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cylinar Recepts", "Cylinar Recepts\Cylinar Recepts.csproj", "{A33F53C7-03CB-4E75-AC7E-7A24B895A276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceptDb", "ReceptDb\ReceptDb\ReceptDb.csproj", "{81673DB0-2ED0-411E-A903-7BB63CF295A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A33F53C7-03CB-4E75-AC7E-7A24B895A276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33F53C7-03CB-4E75-AC7E-7A24B895A276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33F53C7-03CB-4E75-AC7E-7A24B895A276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33F53C7-03CB-4E75-AC7E-7A24B895A276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81673DB0-2ED0-411E-A903-7BB63CF295A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81673DB0-2ED0-411E-A903-7BB63CF295A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81673DB0-2ED0-411E-A903-7BB63CF295A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81673DB0-2ED0-411E-A903-7BB63CF295A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AA0B229-F899-40AE-B107-D213ACFE7018}
+	EndGlobalSection
+EndGlobal
