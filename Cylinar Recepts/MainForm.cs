@@ -127,7 +127,7 @@ namespace Cylinar_Recepts
         //Зміна типу рецепту
         private void receptTypesBox_SelectedIndexChanged(object sender, EventArgs e) => ChangeTypeAsync();
 
-        private async Task ChangeTypeAsync() => await Task.Run(() => ChangeType());
+        private async void ChangeTypeAsync() => await Task.Run(() => ChangeType());
 
         private void ChangeType()
         {
@@ -237,7 +237,7 @@ namespace Cylinar_Recepts
         //Обновити занчення списку рецептів користувача
         private void refreshUserBtn_Click(object sender, EventArgs e) => refreshUserListAsync();
 
-        private async Task refreshUserListAsync()
+        private async void refreshUserListAsync()
         {
             await Task.Run(() => refreshUserList());
         }
